@@ -171,11 +171,11 @@ function M.setup(colors, config)
     hi.NonText                            = { guifg = M.colors.base03, guibg = nil, gui = nil, guisp = nil }
     hi.LineNr                             = { guifg = M.colors.base04, guibg = M.colors.base00, gui = nil, guisp = nil }
     hi.SignColumn                         = { guifg = M.colors.base04, guibg = M.colors.base00, gui = nil, guisp = nil }
-    hi.StatusLine                         = { guifg = M.colors.base05, guibg = M.colors.base02, gui = 'none', guisp = nil }
+    hi.StatusLine                         = { guifg = M.colors.base01, guibg = M.colors.base02, gui = 'none', guisp = nil }
     hi.StatusLineNC                       = { guifg = M.colors.base04, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.WinBar                             = { guifg = M.colors.base05, guibg = nil, gui = 'none', guisp = nil }
     hi.WinBarNC                           = { guifg = M.colors.base04, guibg = nil, gui = 'none', guisp = nil }
-    hi.VertSplit                          = { guifg = M.colors.base05, guibg = M.colors.base00, gui = 'none', guisp = nil }
+    hi.VertSplit                          = { guifg = M.colors.base03, guibg = M.colors.base00, gui = 'none', guisp = nil }
     hi.ColorColumn                        = { guifg = nil, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.CursorColumn                       = { guifg = nil, guibg = M.colors.base01, gui = 'none', guisp = nil }
     hi.CursorLine                         = { guifg = nil, guibg = M.colors.base01, gui = 'none', guisp = nil }
@@ -266,9 +266,9 @@ function M.setup(colors, config)
     hi.DiagnosticUnderlineInformation     = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0F }
     hi.DiagnosticUnderlineHint            = { guifg = nil, guibg = nil, gui = 'undercurl', guisp = M.colors.base0C }
 
-    hi.LspReferenceText                   = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04 }
-    hi.LspReferenceRead                   = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04 }
-    hi.LspReferenceWrite                  = { guifg = nil, guibg = nil, gui = 'underline', guisp = M.colors.base04 }
+    hi.LspReferenceText                   = { guifg = nil, guibg = M.colors.base02, gui = nil, guisp = M.colors.base04 }
+    hi.LspReferenceRead                   = { guifg = nil, guibg = M.colors.base02, gui = nil, guisp = M.colors.base04 }
+    hi.LspReferenceWrite                  = { guifg = nil, guibg = M.colors.base02, gui = nil, guisp = M.colors.base04 }
     hi.LspDiagnosticsDefaultError         = 'DiagnosticError'
     hi.LspDiagnosticsDefaultWarning       = 'DiagnosticWarn'
     hi.LspDiagnosticsDefaultInformation   = 'DiagnosticInfo'
